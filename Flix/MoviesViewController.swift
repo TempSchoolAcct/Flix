@@ -27,6 +27,8 @@ class MoviesViewController: UIViewController {
            } else if let data = data {
               let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
             
+            self.movies = dataDictionary["results"] as! [[String:Any]]
+            
             print(dataDictionary)
               // TODO: Get the array of movies
               // TODO: Store the movies in a property to use elsewhere
