@@ -15,6 +15,7 @@
 		447B392823EE293800AAB6CC /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B392723EE293800AAB6CC /* FlixTests.swift */; };
 		447B393323EE293900AAB6CC /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B393223EE293900AAB6CC /* FlixUITests.swift */; };
 		447B394123EE2C9200AAB6CC /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B394023EE2C9200AAB6CC /* MoviesViewController.swift */; };
+		447B394323EE324F00AAB6CC /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447B394223EE324F00AAB6CC /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		447B393223EE293900AAB6CC /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		447B393423EE293900AAB6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		447B394023EE2C9200AAB6CC /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		447B394223EE324F00AAB6CC /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				447B391B23EE293800AAB6CC /* LaunchScreen.storyboard */,
 				447B391E23EE293800AAB6CC /* Info.plist */,
 				447B394023EE2C9200AAB6CC /* MoviesViewController.swift */,
+				447B394223EE324F00AAB6CC /* MovieTableViewCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				447B391123EE293600AAB6CC /* AppDelegate.swift in Sources */,
 				447B391323EE293600AAB6CC /* SceneDelegate.swift in Sources */,
+				447B394323EE324F00AAB6CC /* MovieTableViewCell.swift in Sources */,
 				447B394123EE2C9200AAB6CC /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
